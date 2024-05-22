@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.items {
+    margin: 20px;
+}
+
+.items h2 {
+    margin-top: 0;
+}
+
+.item {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.item p {
+    text-align: center;
+}

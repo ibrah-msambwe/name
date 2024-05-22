@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Bilal Mwindo</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">BMBC</a>         
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">NYUMBANI</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#service">HUDUMA</a>
+                </li>
+                
+                <li class="item">
+                    <a class="link" href="#picture">PICHA</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">WASILIANA NAMI</a>
+                </li>
+               
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>          
+    </nav><!-- End of Page Navbar -->
+ 
+        </div>   
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Bilal Mwindo</span>
+            </h1>
+            <p class="header-subtitle">BUSINESS CENTER</p><br>   
+            <p class="header-subtitle">Niite Mr.Multipurpose</p> 
+                          
+    </header><!-- end of page header -->
+    <br><br><br><br><br><br>
+    <!-- service section -->
+    <section class="section" id="service">
+        <div class="container text-center">
+            <div class="typing-container">
+                <span id="typing-text"></span>
+                <span class="cursor">|</span>
+            
+            <script>
+                const textElement = document.getElementById('typing-text');
+        const text= "karibuni sana wateja wangu wa mana kabisa natoa huduma salama, bora na zakuaminika by Bilal Mwindo.. niite Mr Multpurpose";
+        let index = 0;
+        let isDeleting = false;
+        const typingSpeed = 100; // Speed for typing
+        const deletingSpeed = 50; // Speed for deleting
+        const delayAfterTyping = 1000; // Delay before starting to delete
+        const delayAfterDeleting = 500; // Delay before starting to type
+        
+        function type() {
+            if (!isDeleting && index < text.length) {
+                textElement.innerHTML = text.substring(0, index + 1);
+                index++;
+                setTimeout(type, typingSpeed);
+            } else if (isDeleting && index > 0) {
+                textElement.innerHTML = text.substring(0, index - 1);
+                index--;
+                setTimeout(type, deletingSpeed);
+            } else if (!isDeleting && index === text.length) {
+                isDeleting = true;
+                setTimeout(type, delayAfterTyping);
+            } else if (isDeleting && index === 0) {
+                isDeleting = false;
+                setTimeout(type, delayAfterDeleting);
+            }
+        }
+        
+        document.addEventListener("DOMContentLoaded", function() {
+            type();
+        });
+        
+            </script>
+           <style>
+            .typing-container {
+font-size: 24px;
+color:rgb(1, 1, 226);
+align-items: center;
+
+}
+
+           </style>
+            <p class="section-subtitle">Huduma Nitoazo</p>
+            <h6 class="section-title mb-6">HUDUMA</h6>
+              <title>Huduma Zetu</title>
+    <link rel="stylesheet" href="10.css">
+</div>
+</head>
+<body>
+    <section class="services">
+        <div class="service-box">
+            <h2>Mavazi</h2>
+            <p>Huduma za mavazi za kisasa na za kuvutia kwa bei nafuu.</p>
+            <a href="clothes.html" class="btn">Jifunze Zaidi</a>
+        </div>
+        <div class="service-box">
+            <h2>Chips</h2>
+            <p>Chips tamu na za ladha nzuri zinazotengenezwa kwa ustadi wa hali ya juu.</p>
+            <a href="chips.html" class="btn">Jifunze Zaidi</a>
+        </div>
+        <div class="service-box">
+            <h2>Huduma za Fedha</h2>
+            <p>Huduma za kifedha bora na salama kwa wateja wetu.</p>
+            <a href="WAKALA.html" class="btn">Jifunze Zaidi</a>
+        </div>
+        <br><br>
+    <!-- portfolio section -->
+    <section class="section" id="picture">
+        <div class="container text-center">
+            <p class="section-subtitle">Jionee mwenyewe!</p>
+            <h6 class="section-title mb-6">PICHA</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="n.jpg" class="img-responsive rounded" alt="">    
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Mr. Multipurpose</h5>
+                                <p class="font-weight-normal">Bilal Mwindo </p>   
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">                      
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="e.jpg" class="img-responsive rounded" alt="">    
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Mr. Multipurpose</h5>
+                                <p class="font-weight-normal">Bilal Mwindo </p>
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                            </span>                         
+                        </span>                         
+                    </a>
+                </div>
+            </div>
+            
+<br><br><br>
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">JINSI YA KUWASILIANA?</p>
+            <h6 class="section-title mb-5">Wasiliana nami</h6>
+            <section class="section-sm bg-primary">
+                <!-- container -->
+                <div class="container text-center text-sm-left">
+                    <!-- row -->
+                    <div class="row align-items-center">
+                        <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                            <h3 class="title text-light">Unataka kufanya kazi na mimi?</h3>
+                            <p class="m-0 text-light">Mda wote  kua huru kuwasiliana na mimi hapa</p><br><br>
+                            <h5 class="portfolio-card-caption text-black">
+                            Simu: +255 686 594001<br>
+                            Email: bilalsoud@gmail.com<br>
+                            Mahali: Kimbiji, Kigamboni Dar es salaam<br>
+                            wasiliana na mimi kupata maelekezo mubashara<br><br>
+                            Bonyeza HAPA tafuta(search) kimbiji<br>
+                            kupata live lokesheni<br>
+                             yangu kwenye ramani.
+                        </h5>
+                        </div>
+                        <div class="col-sm offset-sm-2 offset-md-3">
+                            <a href="map.html" class="btn btn-lg my-font btn-light rounded">hapa</a>
+                        </div>
+                        
+                        </div>
+                    </div> <!-- end of row -->
+                </div> <!-- end of container -->
+            </section> <!-- end of section -->
+                    
+                    </div>
+                </div>  
+            </form><!-- end of contact form -->
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">       
+            <p class="mb-0">Copyright Mr. Multipurpose<script>document.write(new Date().getFullYear())</script> &copy;
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+             
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+	
+	<!-- core  -->
+    <script src="jquery-3.4.1.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+	<script src="bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="meyawo.js"></script>
+
+</body>
+</html>

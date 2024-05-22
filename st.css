@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+header {
+    background-color: #0892ad;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(6, 181, 120, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+    font-size: 2em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color: #0c01a4;
+}
+
+header hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #70c902, #059b64, #fdcc07);
+    border-radius: 5px;
+    margin: 10px 0 0;
+}
+
+main {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.service {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.service:hover {
+    transform: scale(1.02);
+}
+
+.service img {
+    width: 300px;
+    height: 100px;
+   
+
+.service h2 {
+    color: #047ebb;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service p {
+    margin: 0 0 20px;
+    font-size: 1em;
+    color: #666;
+}
+
+.service button {
+    background-color: #030561;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #080351;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.service button:hover {
+    background-color: #0c56ab;
+}
+
+footer {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #100480;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
